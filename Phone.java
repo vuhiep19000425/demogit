@@ -3,7 +3,9 @@ public abstract class Phone	{
 	private String name;
 	private String phone;
 	private String newnumber;
-	private String idTiktok
+	private String idTiktok;
+	private String n;
+	
 	public String getName() {
 		return name;
 	}
@@ -16,6 +18,7 @@ public abstract class Phone	{
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
+	
 	public abstract void insertPhone(String name, String phone);
 	public abstract void removePhone(String name);
 	public abstract void updatePhone(String name, String newnumber);
