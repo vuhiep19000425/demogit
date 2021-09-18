@@ -2,6 +2,8 @@ package bai_tap_interface_abstract;
 public abstract class Phone	{
 	private String name;
 	private String phone;
+	private String newnumber;
+	
 	public String getName() {
 		return name;
 	}
