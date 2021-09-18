@@ -3,7 +3,7 @@ public abstract class Phone	{
 	private String name;
 	private String phone;
 	private String newnumber;
-	
+	private String name2;
 	public String getName() {
 		return name;
 	}
